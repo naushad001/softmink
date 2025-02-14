@@ -1,0 +1,1862 @@
+/* Large Display laptop Desktop screen */
+@media (min-width: 1200px) and (max-width: 1390px) {
+    * {
+        margin: 0;
+        padding: 0;
+        outline: none !important;
+        box-sizing: border-box;
+        transition: ease all 0.5s;
+        -webkit-transition: ease all 0.5s;
+        -moz-transition: ease all 0.5s;
+        -ms-transition: ease all 0.5s;
+        -o-transition: ease all 0.5s;
+    }
+
+    input,
+    button,
+    select,
+    textarea {
+        outline: none !important;
+    }
+
+    html,
+    body {
+        /* color: #898989; */
+        font-size: 15px;
+        font-family: 'Poppins', sans-serif;
+        line-height: normal;
+        font-weight: 400;
+        overflow-x: hidden !important;
+        background-color: #dedede;
+    }
+
+    body {
+        overflow: hidden !important;
+    }
+
+    a {
+        color: #1f1f1f;
+        text-decoration: none !important;
+        outline: none !important;
+        -webkit-transition: all .3s ease-in-out;
+        -moz-transition: all .3s ease-in-out;
+        -ms-transition: all .3s ease-in-out;
+        -o-transition: all .3s ease-in-out;
+        transition: all .3s ease-in-out;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        letter-spacing: 0;
+        font-weight: normal;
+        position: relative;
+        padding: 0;
+        font-weight: normal;
+        line-height: normal;
+        color: #1f1f1f;
+        margin: 0
+    }
+
+    h6 {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    h1 {
+        font-size: 24px
+    }
+
+    .small_heading.main-heading h2 {
+        font-size: 21px;
+    }
+
+    .small_heading.main-heading::after {
+        top: 18px;
+    }
+
+    .small_heading.main-heading {
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    h3 {
+        font-size: 18px
+    }
+
+    h4 {
+        font-size: 16px
+    }
+
+    h5 {
+        font-size: 14px
+    }
+
+    h1 a,
+    h2 a,
+    h3 a,
+    h4 a,
+    h5 a,
+    h6 a {
+        color: #212121;
+        text-decoration: none !important;
+        opacity: 1
+    }
+
+    ol,
+    ul {
+        list-style: none;
+        margin: 0;
+    }
+
+    a {
+        color: #000;
+        text-decoration: none;
+        outline: none;
+    }
+
+    a,
+    .btn {
+        text-decoration: none !important;
+        outline: none !important;
+        -webkit-transition: all .3s ease-in-out;
+        -moz-transition: all .3s ease-in-out;
+        -ms-transition: all .3s ease-in-out;
+        -o-transition: all .3s ease-in-out;
+        transition: all .3s ease-in-out;
+    }
+
+    .btn-custom {
+        margin-top: 20px;
+        background-color: transparent;
+        border: 2px solid #ddd;
+        padding: 12px 40px;
+        font-size: 16px;
+    }
+
+    .button_section {
+        float: left;
+        width: 100%;
+    }
+
+    .right_bt {
+        float: right;
+    }
+
+    a.btn,
+    button.btn {
+        min-width: 170px;
+        height: 50px;
+        border-radius: 100px;
+        padding: 0;
+        text-align: center;
+        line-height: 52px;
+        font-size: 14px;
+        font-weight: 400;
+        text-transform: uppercase;
+        margin-top: 10px;
+        color: #fff;
+        border: solid transform 1px;
+    }
+
+    a.btn:hover,
+    button.btn:hover,
+    a.btn:focus,
+    button.btn:focus {
+        background: #252525;
+        color: #fff;
+    }
+
+    button {
+        transition: ease all 0.5s;
+        cursor: pointer;
+    }
+
+    .bt_main {
+        color: #fff;
+        font-size: 14px;
+        min-width: 148px;
+        float: left;
+        text-align: center;
+        height: 48px;
+        line-height: 50px;
+        font-weight: 500;
+        border: none;
+        padding: 0 35px;
+        transition: ease all 0.5s;
+    }
+
+    .bt_main:hover,
+    .bt_main:focus {
+        color: #fff;
+    }
+
+    .reverse_bt.bt_main {
+        color: #fff;
+    }
+
+    .white_bt.bt_main {
+        background: #fff;
+    }
+
+    .white_bt.bt_main:hover,
+    .white_bt.bt_main:focus {
+        color: #fff;
+    }
+
+    .field button {
+        background: #30CFD0;
+        color: #fff;
+        font-size: 14px;
+        width: auto;
+        float: left;
+        text-align: center;
+        height: 48px;
+        border-radius: 5px;
+        line-height: 50px;
+        font-weight: 500;
+        border: none;
+        margin-top: 15px;
+        transition: ease all 0.5s;
+        cursor: pointer;
+        min-width: 148px;
+    }
+
+    .field button:hover,
+    .field button:focus {
+        background: #ffffff;
+        color: #1e72bc;
+    }
+
+    .border_circle_bt {
+        border-radius: 50px;
+    }
+
+    .padding-bottom_0 {
+        padding-bottom: 0 !important;
+    }
+
+    .padding-top_0 {
+        padding-top: 0 !important;
+    }
+
+    .padding-bottom_1 {
+        padding-bottom: 10px !important;
+    }
+
+    .padding-bottom_2 {
+        padding-bottom: 20px !important;
+    }
+
+    .padding-bottom_3 {
+        padding-bottom: 30px !important;
+    }
+
+    .padding-bottom_4 {
+        padding-bottom: 40px !important;
+    }
+
+    .padding-bottom_5 {
+        padding-bottom: 50px !important;
+    }
+
+    .color_black p,
+    .color_black p.large,
+    .color_black ul,
+    .color_black ul li {
+        color: #000;
+    }
+
+    .black_color {
+        color: #000 !important;
+    }
+
+    .extra_light_font {
+        font-weight: 300 !important;
+    }
+
+    .light_font {
+        font-weight: 300 !important;
+    }
+
+    .normal_font {
+        font-weight: 400 !important;
+    }
+
+    .semi_bold_font {
+        font-weight: 600 !important;
+    }
+
+    .bold_font {
+        font-weight: 700 !important;
+    }
+
+    .extra_bold_font {
+        font-weight: 900 !important;
+    }
+
+    .lead {
+        font-size: 18px;
+        line-height: 30px;
+        color: #767676;
+        margin: 0;
+        padding: 0;
+    }
+
+    blockquote {
+        margin: 20px 0 20px;
+        padding: 30px;
+    }
+
+    .margin_0 {
+        margin: 0 !important;
+    }
+
+    .padding_0 {
+        padding: 0 !important;
+    }
+
+    h2 {
+        font-size: 54px;
+        font-weight: 500;
+        letter-spacing: -2px;
+        position: relative;
+        margin-bottom: 25px;
+        line-height: 50px;
+        position: relative;
+    }
+
+    h3 {
+        font-size: 24px;
+        color: #000;
+        line-height: normal;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+    h4 {
+        font-size: 18px;
+        color: #000;
+        line-height: 21px;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin: 30px 0 20px 0;
+    }
+
+    h5 {
+        font-size: 15px;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin: 0;
+        line-height: normal;
+        color: #000;
+    }
+
+    p {
+        color: #999;
+        font-size: 14px;
+        line-height: 21px;
+        font-weight: 300;
+    }
+
+    p.large {
+        color: #707070;
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    p.large_2 {
+        font-weight: 500;
+        font-size: 14px;
+        color: #000;
+    }
+
+    .img-responsive {
+        max-width: 100%;
+    }
+
+    button,
+    input,
+    select,
+    textarea,
+    option {
+        font-family: 'Poppins', sans-serif;
+    }
+
+    a#submit {
+        z-index: 1;
+    }
+
+    a:hover,
+    a:focus {
+        color: #000;
+        text-decoration: none;
+    }
+
+    .span1,
+    .span2,
+    .span3,
+    .span4,
+    .span5,
+    .span6,
+    .span7,
+    .span8,
+    .span9,
+    .span10 {
+        padding: 0 15px;
+        float: left;
+        min-height: 25px;
+    }
+
+    .border_radius_0 {
+        border-radius: 0 !important;
+    }
+
+    .span1 {
+        width: 10%;
+    }
+
+    .span2 {
+        width: 20%;
+    }
+
+    .span3 {
+        width: 30%;
+    }
+
+    .span4 {
+        width: 40%;
+    }
+
+    .span5 {
+        width: 50%;
+    }
+
+    .span6 {
+        width: 60%;
+    }
+
+    .span7 {
+        width: 70%;
+    }
+
+    .span8 {
+        width: 80%;
+    }
+
+    .span9 {
+        width: 90%;
+    }
+
+    .span10 {
+        width: 100%;
+    }
+
+    /* Logo CSS */
+    .navlink-logo {
+        font-size: 2rem;
+        color: #fff;
+        font-weight: 600;
+        font-family: cursive;
+    }
+
+    .navlink-logo span {
+        font-size: 1.8rem;
+        color: #4abbf3;
+        font-weight: 600;
+        font-family: cursive;
+    }
+
+    /* Navbar css */
+    .navbar-nav li {
+        margin-left: 2.5rem;
+    }
+
+    .navbar-nav li a {
+        font-size: 1.3rem;
+        color: white;
+    }
+
+    .dropdown-menu {
+        background-color: #dedede;
+        color: #000;
+    }
+
+    .dropdown-menu li a {
+        background-color: #dedede;
+        color: #000;
+    }
+
+    /* Main CSS */
+    .main_header {
+        background-image: radial-gradient(rgba(4, 2, 1, 20%),
+                rgba(10, 10, 3, 40%)), url("https://4kwallpapers.com/images/walls/thumbs_3t/10874.jpg");
+
+        /* background-image: url("https://4kwallpapers.com/images/walls/thumbs_3t/10874.jpg"); */
+        width: 100%;
+        height: 40rem;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .main_header h1 {
+        font-size: 2.8rem;
+        font-weight: 600;
+        color: white;
+        font-family: system-ui;
+        padding-top: 8rem;
+
+    }
+
+    .main_header h1 span {
+        font-size: 2.8rem;
+        color: #4abbf3;
+        font-weight: 600;
+    }
+
+    .main_header p {
+        padding-top: 1rem;
+        color: white;
+        font-size: 1.3rem;
+        padding-bottom: 2rem;
+    }
+
+    .main_header a {
+        margin-top: 1.5rem;
+        color: #4abbf3;
+        background-color: transparent;
+        border: 2px solid #4abbf3;
+        padding: 1rem;
+        font-size: 1.2rem;
+        text-decoration: none;
+    }
+
+    .main_header a:hover {
+        margin-top: 1.5rem;
+        color: white;
+        background-color: #4abbf3;
+        padding: 1rem;
+        font-size: 1.2rem;
+        text-decoration: none;
+    }
+
+    .main_header .bttn {
+        margin-top: 1.5rem;
+        color: #4abbf3;
+        background-color: transparent;
+        border: 2px solid #4abbf3;
+        padding: 1rem;
+        font-size: 1.2rem;
+        text-decoration: none;
+        margin-left: 1rem;
+    }
+
+    .main_header ul {
+        padding: 0;
+        display: flex;
+        margin-top: 5rem;
+    }
+
+    .main_header ul li {
+        list-style: none;
+        margin: 0.3rem;
+    }
+
+    .main_header ul li img {
+        width: 3.5rem;
+        background-color: white;
+        padding: 0.5rem;
+        border-radius: 50%;
+    }
+
+
+    /* Main-about Section css */
+    .main-about span img {
+        width: 2rem;
+    }
+
+    .main-about span {
+        display: flex;
+    }
+
+    .main-about span h2 {
+        margin-top: 3rem;
+        font-size: 2.5rem;
+        font-weight: 600;
+        /* font-family: system-ui; */
+    }
+
+    .main-about h1 {
+        margin-top: -1rem;
+        font-size: 2.5rem;
+        font-weight: 600;
+        font-family: system-ui;
+        color: #4abbf3;
+    }
+
+    .main-about p {
+        margin-top: 0.5rem;
+        font-size: 1.3rem;
+        font-family: system-ui;
+        text-align: justify;
+        /* padding-right: 2.5rem; */
+        color: black;
+        line-height: 2rem;
+    }
+
+    .main-about img {
+        padding-top: 3.5rem;
+        margin-right: 2.5rem;
+        width: 100%;
+    }
+
+    /* Services css */
+    .Services h1 {
+        margin-top: 3rem;
+        font-size: 2.5rem;
+        font-weight: 600;
+        font-family: system-ui;
+        color: #4abbf3;
+        text-align: center;
+    }
+
+    .Services .card {
+        box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+        background-image: linear-gradient(0deg, #ddd, #fff);
+    }
+
+    .Services p {
+        margin-top: 0.5rem;
+        font-size: 1.3rem;
+        font-family: system-ui;
+        text-align: justify;
+        /* padding-right: 2.5rem; */
+        color: black;
+        line-height: 2rem;
+    }
+
+    .Services img {
+        width: 30%;
+        margin: 0 auto;
+        margin-top: 2rem;
+    }
+
+    .Services h3 {
+        margin-top: 2rem;
+        font-size: 1.8rem;
+        font-weight: 600;
+        font-family: system-ui;
+        text-align: center;
+    }
+
+    .Services p {
+        margin-top: 0.5rem;
+        font-size: 1.2rem;
+        font-family: system-ui;
+        text-align: center;
+        padding: 0 1.5rem;
+        margin-bottom: 2.5rem;
+    }
+
+    /* Studypoint Section Css */
+
+
+    .studypoint h1 {
+        margin-top: 3rem;
+        font-size: 2.5rem;
+        font-weight: 600;
+        font-family: system-ui;
+        color: #4abbf3;
+        text-align: center;
+    }
+
+    .studypoint p {
+        margin-top: 0.5rem;
+        font-size: 1.2rem;
+        font-family: system-ui;
+        text-align: center;
+        padding: 0 1.5rem;
+        color: white;
+    }
+
+    .studypoint img {
+        padding-top: 1.5rem;
+        margin-right: 1.5rem;
+        width: 100%;
+    }
+
+    .cardStudy li {
+        list-style: none;
+        background-color: blue;
+        margin: 2rem 0;
+        border-radius: 0.5rem;
+        text-align: center;
+        padding: 1rem;
+        font-size: 1rem;
+    }
+
+    .cardStudy li a {
+        list-style: none;
+        background-color: blue;
+        margin: 2rem;
+        text-decoration: none;
+        color: white;
+        text-align: center;
+    }
+
+    .cardStudy li a span {
+        /* margin-top: 0.5rem; */
+        font-size: 1.2rem;
+        font-weight: 600;
+        font-family: system-ui;
+
+
+    }
+
+    .cardStudy li a p {
+        margin-top: 0.2rem;
+        font-size: 0.8rem;
+        font-family: system-ui;
+        text-align: center;
+        padding: 0 1.5rem;
+    }
+
+
+    /* Achievement Section */
+    .achievement {
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 3rem;
+        text-align: center;
+    }
+
+    /* Title and Paragraph */
+    .achievement h1 {
+        margin-top: 3rem;
+        font-size: 2.5rem;
+        font-weight: 600;
+        font-family: system-ui;
+        color: black;
+    }
+
+    .achievement p {
+        margin-top: 0.5rem;
+        font-size: 1.3rem;
+        font-family: system-ui;
+        text-align: center;
+        /* padding-right: 2.5rem; */
+        color: black;
+        line-height: 2rem;
+    }
+
+    /* Achievement Box */
+    .achievement-section {
+        border-radius: 50%;
+        box-sizing: border-box;
+        box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+        background: linear-gradient(0deg, #ddd, #fff);
+        transition: 0.5s;
+        border: none;
+        width: 10.5rem;
+        height: 10.5rem;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .achievement-section h2 {
+        font-size: 2.8rem;
+    }
+
+    /* Corrected Selector */
+    .achievement-section h2,
+    .achievement-section p {
+        color: black;
+        margin: 0;
+    }
+
+    /* Contact us CSS */
+
+    .Ourcontact {
+        background-color: white;
+        margin-bottom: -3.8rem;
+
+    }
+
+    .Ourcontact img {
+        transform: scaleX(-1);
+        height: 80vh;
+    }
+
+    .contactform {
+        margin: 2rem;
+        padding: 2rem;
+        box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+        background: linear-gradient(0deg, #f9f7f7, #fff);
+    }
+
+    .contactform form {
+        margin-bottom: -3.2rem;
+        padding: 2.5rem 0;
+    }
+
+    .contactform input {
+        width: 100%;
+        height: 7vh;
+        margin-bottom: 2rem;
+    }
+
+    .contactform input {
+        width: 100%;
+        height: 7vh;
+        margin-bottom: 2rem;
+    }
+
+    .contactform textarea {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .contactdetails {
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .Ourcontacts {
+        background-color: #002e43;
+        border-radius: 2rem;
+        z-index: 99;
+        position: relative;
+    }
+
+    .Ourcontacts h1 {
+        padding-top: 1rem;
+        margin-top: 0.2rem;
+        font-size: 2.5rem;
+        font-weight: 600;
+        font-family: system-ui;
+        color: white;
+        text-align: center;
+    }
+
+    .Ourcontacts p {
+        margin-top: 0.5rem;
+        font-size: 1.2rem;
+        font-family: system-ui;
+        text-align: left;
+        /* padding: 0 1.5rem; */
+        color: white;
+        text-align: center;
+    }
+
+    /* Footer CSS */
+    footer {
+        /* background-color: #fafafa; */
+        margin-top: -3.7rem;
+        padding-top: 3.7rem;
+    }
+
+
+
+}
+
+/* Large Tablet screen */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+    /* Main CSS */
+    .main_header {
+        background-image: radial-gradient(rgba(4, 2, 1, 20%),
+                rgba(10, 10, 3, 40%)), url("https://4kwallpapers.com/images/walls/thumbs_3t/10874.jpg");
+
+        /* background-image: url("https://4kwallpapers.com/images/walls/thumbs_3t/10874.jpg"); */
+        width: 100%;
+        height: 40rem;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .main_header h1 {
+        font-size: 2.4rem;
+        font-weight: 600;
+        color: white;
+        font-family: system-ui;
+        padding-top: 8rem;
+
+    }
+
+    .main_header h1 span {
+        font-size: 2.4rem;
+        color: #4abbf3;
+        font-weight: 600;
+    }
+
+    .main_header p {
+        padding-top: 1rem;
+        color: white;
+        font-size: 1.3rem;
+        padding-bottom: 2rem;
+    }
+
+    .main_header a {
+        margin-top: 1.5rem;
+        color: #4abbf3;
+        background-color: transparent;
+        border: 2px solid #4abbf3;
+        padding: 1rem;
+        font-size: 1.2rem;
+        text-decoration: none;
+    }
+
+    .main_header a:hover {
+        margin-top: 1.5rem;
+        color: white;
+        background-color: #4abbf3;
+        padding: 1rem;
+        font-size: 1.2rem;
+        text-decoration: none;
+    }
+
+    .main_header .bttn {
+        margin-top: 1.5rem;
+        color: #4abbf3;
+        background-color: transparent;
+        border: 2px solid #4abbf3;
+        padding: 1rem;
+        font-size: 1.2rem;
+        text-decoration: none;
+        margin-left: 1rem;
+    }
+
+    .main_header ul {
+        padding: 0;
+        display: flex;
+        margin-top: 5rem;
+    }
+
+    .main_header ul li {
+        list-style: none;
+        margin: 0.3rem;
+    }
+
+    .main_header ul li img {
+        width: 3.5rem;
+        background-color: white;
+        padding: 0.5rem;
+        border-radius: 50%;
+    }
+
+    /* Main-about Section css */
+    .main-about span img {
+        width: 2rem;
+    }
+
+    .main-about span {
+        display: flex;
+    }
+
+    .main-about span h2 {
+        margin-top: 3rem;
+        font-size: 2rem;
+        font-weight: 600;
+        /* font-family: system-ui; */
+    }
+
+    .main-about h1 {
+        margin-top: -1rem;
+        font-size: 2rem;
+        font-weight: 600;
+        font-family: system-ui;
+        color: #4abbf3;
+    }
+
+    .main-about p {
+        margin-top: 0.5rem;
+        font-size: 1rem;
+        font-family: system-ui;
+        text-align: justify;
+        /* padding-right: 2.5rem; */
+        color: black;
+        line-height: 1.5rem;
+    }
+
+    .main-about img {
+        padding-top: 5rem;
+        margin-right: 2.5rem;
+        width: 37rem;
+    }
+
+    /* Services css */
+    .Services h1 {
+        margin-top: 3rem;
+        font-size: 2.5rem;
+        font-weight: 600;
+        font-family: system-ui;
+        color: #4abbf3;
+        text-align: center;
+    }
+
+    .Services .card {
+        box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+        background-image: linear-gradient(0deg, #ddd, #fff);
+    }
+
+    .Services p {
+        margin-top: 0.5rem;
+        font-size: 1.5rem;
+        font-family: system-ui;
+        text-align: justify;
+        /* padding-right: 2.5rem; */
+        color: black;
+        line-height: 2rem;
+    }
+
+    .Services img {
+        width: 28%;
+        margin: 0 auto;
+        margin-top: 2rem;
+    }
+
+    .Services h3 {
+        margin-top: 2rem;
+        font-size: 1.5rem;
+        font-weight: 600;
+        font-family: system-ui;
+        text-align: center;
+    }
+
+    .Services p {
+        margin-top: 0.5rem;
+        font-size: 1rem;
+        font-family: system-ui;
+        text-align: center;
+        padding: 0 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+
+    /* Studypoint Section Css */
+
+
+    .studypoint h1 {
+        margin-top: 3rem;
+        font-size: 2.5rem;
+        font-weight: 600;
+        font-family: system-ui;
+        color: #4abbf3;
+        text-align: center;
+    }
+
+    .studypoint p {
+        margin-top: 0.5rem;
+        font-size: 1.2rem;
+        font-family: system-ui;
+        text-align: center;
+        padding: 0 1.5rem;
+        color: white;
+    }
+
+    .studypoint img {
+        padding-top: 1.5rem;
+        margin-right: 1.5rem;
+        width: 100%;
+    }
+
+    .cardStudy li {
+        list-style: none;
+        background-color: blue;
+        margin: 2rem 0;
+        border-radius: 0.5rem;
+        text-align: center;
+        padding: 1rem;
+        font-size: 1rem;
+    }
+
+    .cardStudy li a {
+        list-style: none;
+        background-color: blue;
+        margin: 2rem;
+        text-decoration: none;
+        color: white;
+        text-align: center;
+    }
+
+    .cardStudy li a span {
+        /* margin-top: 0.5rem; */
+        font-size: 1.2rem;
+        font-weight: 600;
+        font-family: system-ui;
+
+
+    }
+
+    .cardStudy li a p {
+        margin-top: 0.2rem;
+        font-size: 0.8rem;
+        font-family: system-ui;
+        text-align: center;
+        padding: 0 1.5rem;
+    }
+
+    /* Contact us CSS */
+
+    .Ourcontact {
+        background-color: white;
+        margin-bottom: -3.8rem;
+
+    }
+
+    .Ourcontact img {
+        transform: scaleX(-1);
+        height: 80vh;
+    }
+
+    .contactform {
+        margin: 2rem;
+        padding: 2rem;
+        box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+        background: linear-gradient(0deg, #f9f7f7, #fff);
+    }
+
+    .contactform form {
+        margin-bottom: -3.2rem;
+    }
+
+    .contactform input {
+        width: 100%;
+        height: 7vh;
+        margin-bottom: 2rem;
+    }
+
+    .contactform input {
+        width: 100%;
+        height: 7vh;
+        margin-bottom: 2rem;
+    }
+
+    .contactform textarea {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .contactdetails {
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .Ourcontacts {
+        background-color: #002e43;
+        border-radius: 2rem;
+        z-index: 99;
+        position: relative;
+    }
+
+    .Ourcontacts h1 {
+        padding-top: 1rem;
+        margin-top: 0.2rem;
+        font-size: 2.5rem;
+        font-weight: 600;
+        font-family: system-ui;
+        color: white;
+        text-align: center;
+    }
+
+    .Ourcontacts p {
+        margin-top: 0.5rem;
+        font-size: 1.2rem;
+        font-family: system-ui;
+        text-align: left;
+        /* padding: 0 1.5rem; */
+        color: white;
+        text-align: center;
+    }
+
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    /* Main CSS */
+    .navbg_img h1 {
+        font-size: 1rem;
+        /* Slightly larger than mobile */
+        font-weight: 600;
+        color: white;
+        font-family: system-ui;
+        padding-top: 2rem;
+    }
+
+    .navbg_img h1 span {
+        font-size: 1rem;
+        color: #4abbf3;
+        font-weight: 600;
+    }
+
+    .navbg_img ul {
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        /* Center align navigation items */
+        margin-top: 2rem;
+    }
+
+    .navbg_img {
+        background-image: radial-gradient(rgba(4, 2, 1, 20%), rgba(10, 10, 3, 40%)), url(https://4kwallpapers.com/images/walls/thumbs_3t/10874.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 45rem;
+        /* Adjust height for tablets */
+    }
+
+    /* About css */
+    .main-about span h2 {
+        margin-top: 2rem;
+        font-size: 2rem;
+        font-weight: 600;
+        font-family: system-ui;
+    }
+
+    .main-about h1 {
+        margin-top: -1.5rem;
+        font-size: 2.5rem;
+        font-weight: 600;
+        font-family: system-ui;
+        color: #4abbf3;
+    }
+
+    .main-about img {
+        padding-top: 2rem;
+        margin-right: 2rem;
+        width: 90%;
+        /* Slightly smaller for tablets */
+    }
+
+    /* Services css */
+    .Services h1 {
+        margin-top: 3rem;
+        font-size: 2.5rem;
+        font-weight: 600;
+        font-family: system-ui;
+        color: #4abbf3;
+        text-align: center;
+    }
+
+    .Services .card {
+        box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+        background-image: linear-gradient(0deg, #ddd, #fff);
+    }
+
+    .Services p {
+        margin-top: 0.5rem;
+        font-size: 1.5rem;
+        font-family: system-ui;
+        text-align: justify;
+        /* padding-right: 2.5rem; */
+        color: black;
+        line-height: 2rem;
+    }
+
+    .Services img {
+        width: 30%;
+        margin: 0 auto;
+        margin-top: 2rem;
+    }
+
+    .Services h3 {
+        margin-top: 2rem;
+        font-size: 1.5rem;
+        font-weight: 600;
+        font-family: system-ui;
+        text-align: center;
+    }
+
+    .Services p {
+        margin-top: 0.5rem;
+        font-size: 1rem;
+        font-family: system-ui;
+        text-align: center;
+        padding: 0 1.5rem;
+        margin-bottom: 2rem;
+    }
+
+    /* Study-Point Css */
+    .studypoint h1 {
+        margin-top: 2rem;
+        font-size: 1.8rem;
+        font-weight: 600;
+        font-family: system-ui;
+        color: #4abbf3;
+        text-align: center;
+    }
+
+    .studypoint p {
+        margin-top: 1rem;
+        font-size: 1.3rem;
+        font-family: system-ui;
+        text-align: center;
+        color: white;
+    }
+
+    .studypoint img {
+        padding-top: 1.5rem;
+        margin-right: 1.5rem;
+        width: 80%;
+    }
+
+    .CardSection h1 {
+        margin-top: 2.5rem;
+        font-size: 2.5rem;
+        font-weight: 600;
+        font-family: system-ui;
+        color: #4abbf3;
+        text-align: center;
+    }
+
+    .achivement-section {
+        border-radius: 1rem;
+        box-sizing: border-box;
+        box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+        background: linear-gradient(0deg, #ddd, #fff);
+        transition: 0.5s;
+        border: none;
+        width: 90%;
+        /* Reduce width for tablets */
+        height: 8rem;
+        /* Adjust height */
+        text-align: center;
+        display: block;
+        align-items: center;
+        margin: 1rem auto;
+    }
+
+    /* Contact us css */
+    .Ourcontacts h1 {
+        padding-top: 2rem;
+        margin-top: 1rem;
+        font-size: 2.2rem;
+        font-weight: 600;
+        font-family: system-ui;
+        color: white;
+        text-align: center;
+    }
+
+    .Ourcontact img {
+        transform: scaleX(-1);
+        height: 100vh;
+        /* Adjust image size */
+    }
+
+    .contactform {
+        margin: 0rem auto;
+        padding: 2.5rem;
+        box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+        background: linear-gradient(0deg, #f9f7f7, #fff);
+        margin-bottom: 5rem;
+        width: 80%;
+        /* Center the form and adjust width */
+    }
+
+    .Ourcontacts p {
+        margin-top: 1rem;
+        font-size: 1.3rem;
+        font-family: system-ui;
+        color: white;
+        text-align: center;
+        padding: 0 2rem;
+    }
+}
+
+/* Mobile display  */
+@media (min-width:576px) and (max-width:767px) {
+
+    /* Main CSS */
+    .main_header {
+        background-image: radial-gradient(rgba(4, 2, 1, 20%),
+                rgba(10, 10, 3, 40%)), url("https://4kwallpapers.com/images/walls/thumbs_3t/10874.jpg");
+
+        /* background-image: url("https://4kwallpapers.com/images/walls/thumbs_3t/10874.jpg"); */
+        width: 100%;
+        height: 40rem;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .main_header h1 {
+        font-size: 2.6rem;
+        font-weight: 600;
+        color: white;
+        font-family: system-ui;
+        padding-top: 8rem;
+
+    }
+
+    .main_header h1 span {
+        font-size: 2.6rem;
+        color: #4abbf3;
+        font-weight: 600;
+    }
+
+    .main_header p {
+        padding-top: 1rem;
+        color: white;
+        font-size: 1.3rem;
+        padding-bottom: 2rem;
+    }
+
+    .main_header a {
+        margin-top: 1.5rem;
+        color: #4abbf3;
+        background-color: transparent;
+        border: 2px solid #4abbf3;
+        padding: 1rem;
+        font-size: 1.2rem;
+        text-decoration: none;
+    }
+
+    .main_header a:hover {
+        margin-top: 1.5rem;
+        color: white;
+        background-color: #4abbf3;
+        padding: 1rem;
+        font-size: 1.2rem;
+        text-decoration: none;
+    }
+
+    .main_header .bttn {
+        margin-top: 1.5rem;
+        color: #4abbf3;
+        background-color: transparent;
+        border: 2px solid #4abbf3;
+        padding: 1rem;
+        font-size: 1.2rem;
+        text-decoration: none;
+        margin-left: 1rem;
+    }
+
+    .main_header ul {
+        padding: 0;
+        display: flex;
+        margin-top: 5rem;
+    }
+
+    .main_header ul li {
+        list-style: none;
+        margin: 0.3rem;
+    }
+
+    .main_header ul li img {
+        width: 3.5rem;
+        background-color: white;
+        padding: 0.5rem;
+        border-radius: 50%;
+    }
+
+    /* About css */
+    .main-about span h2 {
+        margin-top: 2rem;
+        font-size: 2rem;
+        font-weight: 600;
+        font-family: system-ui;
+    }
+
+    .main-about h1 {
+        margin-top: -1.5rem;
+        font-size: 2.5rem;
+        font-weight: 600;
+        font-family: system-ui;
+        color: #4abbf3;
+    }
+
+    .main-about img {
+        padding-top: 2rem;
+        margin-right: 2rem;
+        width: 90%;
+        /* Slightly smaller for tablets */
+    }
+
+    /* Services css */
+    .Services h1 {
+        margin-top: 3rem;
+        font-size: 2.5rem;
+        font-weight: 600;
+        font-family: system-ui;
+        color: #4abbf3;
+        text-align: center;
+    }
+
+    .Services .card {
+        box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+        background-image: linear-gradient(0deg, #ddd, #fff);
+    }
+
+    .Services p {
+        margin-top: 0.5rem;
+        font-size: 1.5rem;
+        font-family: system-ui;
+        text-align: justify;
+        /* padding-right: 2.5rem; */
+        color: black;
+        line-height: 2rem;
+    }
+
+    .Services img {
+        width: 30%;
+        margin: 0 auto;
+        margin-top: 2rem;
+    }
+
+    .Services h3 {
+        margin-top: 2rem;
+        font-size: 1.5rem;
+        font-weight: 600;
+        font-family: system-ui;
+        text-align: center;
+    }
+
+    .Services p {
+        margin-top: 0.5rem;
+        font-size: 1rem;
+        font-family: system-ui;
+        text-align: center;
+        padding: 0 1.5rem;
+        margin-bottom: 2rem;
+    }
+
+    /* Study-Point Css */
+    .studypoint h1 {
+        margin-top: 2rem;
+        font-size: 1.8rem;
+        font-weight: 600;
+        font-family: system-ui;
+        color: #4abbf3;
+        text-align: center;
+    }
+
+    .studypoint p {
+        margin-top: 1rem;
+        font-size: 1.3rem;
+        font-family: system-ui;
+        text-align: center;
+        color: white;
+    }
+
+    .studypoint img {
+        padding-top: 1.5rem;
+        margin-right: 1.5rem;
+        width: 80%;
+    }
+
+    .CardSection h1 {
+        margin-top: 2.5rem;
+        font-size: 2.5rem;
+        font-weight: 600;
+        font-family: system-ui;
+        color: #4abbf3;
+        text-align: center;
+    }
+
+    .achivement-section {
+        border-radius: 1rem;
+        box-sizing: border-box;
+        box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+        background: linear-gradient(0deg, #ddd, #fff);
+        transition: 0.5s;
+        border: none;
+        width: 90%;
+        /* Reduce width for tablets */
+        height: 8rem;
+        /* Adjust height */
+        text-align: center;
+        display: block;
+        align-items: center;
+        margin: 1rem auto;
+    }
+
+    /* Contact us css */
+    .Ourcontacts h1 {
+        padding-top: 2rem;
+        margin-top: 1rem;
+        font-size: 2.2rem;
+        font-weight: 600;
+        font-family: system-ui;
+        color: white;
+        text-align: center;
+    }
+
+    .Ourcontact img {
+        transform: scaleX(-1);
+        height: 100vh;
+        /* Adjust image size */
+    }
+
+    .contactform {
+        margin: 0rem auto;
+        padding: 2.5rem;
+        box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+        background: linear-gradient(0deg, #f9f7f7, #fff);
+        margin-bottom: 5rem;
+        width: 80%;
+        /* Center the form and adjust width */
+    }
+
+    .Ourcontacts p {
+        margin-top: 1rem;
+        font-size: 1.3rem;
+        font-family: system-ui;
+        color: white;
+        text-align: center;
+        padding: 0 2rem;
+    }
+}
+
+/* Mobile display  */
+@media (min-width:300px) and (max-width:576px) {
+
+    /* Main CSS */
+    .main_header {
+        background-image: radial-gradient(rgba(4, 2, 1, 20%),
+                rgba(10, 10, 3, 40%)), url("https://4kwallpapers.com/images/walls/thumbs_3t/10874.jpg");
+
+        /* background-image: url("https://4kwallpapers.com/images/walls/thumbs_3t/10874.jpg"); */
+        width: 100%;
+        height: 40rem;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .main_header h1 {
+        font-size: 2.5rem;
+        font-weight: 600;
+        color: white;
+        font-family: system-ui;
+        padding-top: 8rem;
+
+    }
+
+    .main_header h1 span {
+        font-size: 2.5rem;
+        color: #4abbf3;
+        font-weight: 600;
+    }
+
+    .main_header p {
+        padding-top: 1rem;
+        color: white;
+        font-size: 1.3rem;
+        padding-bottom: 2rem;
+    }
+
+    .main_header a {
+        margin-top: 1.5rem;
+        color: #4abbf3;
+        background-color: transparent;
+        border: 2px solid #4abbf3;
+        padding: 1rem;
+        font-size: 1.2rem;
+        text-decoration: none;
+    }
+
+    .main_header a:hover {
+        margin-top: 1.5rem;
+        color: white;
+        background-color: #4abbf3;
+        padding: 1rem;
+        font-size: 1.2rem;
+        text-decoration: none;
+    }
+
+    .main_header .bttn {
+        margin-top: 1.5rem;
+        color: #4abbf3;
+        background-color: transparent;
+        border: 2px solid #4abbf3;
+        padding: 1rem;
+        font-size: 1.2rem;
+        text-decoration: none;
+        margin-left: 1rem;
+    }
+
+    .main_header ul {
+        padding: 0;
+        display: flex;
+        margin-top: 3rem;
+    }
+
+    .main_header ul li {
+        list-style: none;
+        margin: 0.3rem;
+    }
+
+    .main_header ul li img {
+        width: 3.5rem;
+        background-color: white;
+        padding: 0.5rem;
+        border-radius: 50%;
+    }
+
+    /* About css */
+    .main-about span h2 {
+        margin-top: 2rem;
+        font-size: 2rem;
+        font-weight: 600;
+        font-family: system-ui;
+    }
+
+    .main-about h1 {
+        margin-top: -1.5rem;
+        font-size: 2.5rem;
+        font-weight: 600;
+        font-family: system-ui;
+        color: #4abbf3;
+    }
+
+    .main-about img {
+        padding-top: 2rem;
+        margin-right: 2rem;
+        width: 90%;
+        /* Slightly smaller for tablets */
+    }
+
+    /* Services css */
+    .Services h1 {
+        margin-top: 3rem;
+        font-size: 2.5rem;
+        font-weight: 600;
+        font-family: system-ui;
+        color: #4abbf3;
+        text-align: center;
+    }
+
+    .Services .card {
+        box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+        background-image: linear-gradient(0deg, #ddd, #fff);
+    }
+
+    .Services p {
+        margin-top: 0.5rem;
+        font-size: 1.5rem;
+        font-family: system-ui;
+        text-align: justify;
+        /* padding-right: 2.5rem; */
+        color: black;
+        line-height: 2rem;
+    }
+
+    .Services img {
+        width: 30%;
+        margin: 0 auto;
+        margin-top: 2rem;
+    }
+
+    .Services h3 {
+        margin-top: 2rem;
+        font-size: 1.5rem;
+        font-weight: 600;
+        font-family: system-ui;
+        text-align: center;
+    }
+
+    .Services p {
+        margin-top: 0.5rem;
+        font-size: 1rem;
+        font-family: system-ui;
+        text-align: center;
+        padding: 0 1.5rem;
+        margin-bottom: 2rem;
+    }
+
+    /* Study-Point Css */
+    .studypoint h1 {
+        margin-top: 2rem;
+        font-size: 1.8rem;
+        font-weight: 600;
+        font-family: system-ui;
+        color: #4abbf3;
+        text-align: center;
+    }
+
+    .studypoint p {
+        margin-top: 1rem;
+        font-size: 1.3rem;
+        font-family: system-ui;
+        text-align: center;
+        color: white;
+    }
+
+    .studypoint img {
+        padding-top: 1.5rem;
+        margin-right: 1.5rem;
+        width: 80%;
+    }
+
+    .CardSection h1 {
+        margin-top: 2.5rem;
+        font-size: 2.5rem;
+        font-weight: 600;
+        font-family: system-ui;
+        color: #4abbf3;
+        text-align: center;
+    }
+
+    .achivement-section {
+        border-radius: 1rem;
+        box-sizing: border-box;
+        box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+        background: linear-gradient(0deg, #ddd, #fff);
+        transition: 0.5s;
+        border: none;
+        width: 90%;
+        /* Reduce width for tablets */
+        height: 8rem;
+        /* Adjust height */
+        text-align: center;
+        display: block;
+        align-items: center;
+        margin: 1rem auto;
+    }
+
+    /* Contact us css */
+    .Ourcontacts h1 {
+        padding-top: 2rem;
+        margin-top: 1rem;
+        font-size: 2.2rem;
+        font-weight: 600;
+        font-family: system-ui;
+        color: white;
+        text-align: center;
+    }
+
+    .Ourcontact img {
+        transform: scaleX(-1);
+        height: 100vh;
+        /* Adjust image size */
+    }
+
+    .contactform {
+        margin: 0rem auto;
+        padding: 2.5rem;
+        box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+        background: linear-gradient(0deg, #f9f7f7, #fff);
+        margin-bottom: 5rem;
+        width: 80%;
+        /* Center the form and adjust width */
+    }
+
+    .Ourcontacts p {
+        margin-top: 1rem;
+        font-size: 1.3rem;
+        font-family: system-ui;
+        color: white;
+        text-align: center;
+        padding: 0 2rem;
+    }
+}
